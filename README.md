@@ -19,6 +19,20 @@ It includes data preprocessing, visualization (matplotlib + seaborn), training/t
 └── README.md
 ```
 
+## Sections:
+
+- Project Title & Description
+
+- Dataset description
+
+- Installation & Running steps
+
+- Sample Output (screenshot of console + plots)
+
+- Results (R², MAE)
+
+- Future Improvements
+
 ## Setup
 
 ### 1) Create & activate a virtual environment 
@@ -88,4 +102,11 @@ Hours_Studied,Attendance,Final_Score
 
 ## Expected Output
 When run with `--hours 4 --attendance 80`, the script prints a prediction and saves metrics to `outputs/metrics.json`.
+
+## Badges:
+
+![Python](https://img.shields.io/badge/python-3.8%2B-blue)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-orange)
+
+
 
