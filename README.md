@@ -103,6 +103,14 @@ Hours_Studied,Attendance,Final_Score
 ## Expected Output
 When run with `--hours 4 --attendance 80`, the script prints a prediction and saves metrics to `outputs/metrics.json`.
 
+## Visualizations
+
+![Scatter Plot](images/scatter_hours_vs_score.png)
+![Heatmap](images/correlation_heatmap.png)
+
+<img width="1237" height="912" alt="Screenshot 2025-08-22 193209" src="https://github.com/user-attachments/assets/34828176-3022-4bad-9c02-2b78ac3ab07f" />
+<img width="1166" height="896" alt="Screenshot 2025-08-22 193224" src="https://github.com/user-attachments/assets/c91476bb-ba69-413b-852d-435a3e3ea09d" />
+
 ## Badges:
 
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue)
