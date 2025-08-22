@@ -21,7 +21,7 @@ It includes data preprocessing, visualization (matplotlib + seaborn), training/t
 
 ## Setup
 
-### 1) Create & activate a virtual environment (recommended)
+### 1) Create & activate a virtual environment 
 ```bash
 # Windows (Powershell)
 python -m venv .venv
@@ -86,9 +86,6 @@ Hours_Studied,Attendance,Final_Score
 5. **Evaluate:** Report **R²** (coefficient of determination) and **MAE** (average absolute error).  
 6. **Predict:** CLI predicts score for (hours, attendance), default `4` & `80` as required.
 
-## Expected Output (as per assignment)
+## Expected Output
 When run with `--hours 4 --attendance 80`, the script prints a prediction and saves metrics to `outputs/metrics.json`.
 
-## Notes
-- You may extend the dataset with real records; the model will automatically retrain.  
-- For academic submission, include screenshots of the plots from `outputs/` and paste metrics/prediction into your report.
